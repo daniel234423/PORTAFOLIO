@@ -150,18 +150,19 @@
         font-size: 150%;
         width: 90%
     }
-    .progress{
+    .progress1{
         visibility: hidden;
         width: 0%;
     }
-    .habilidad{
-        border: 1px solid black;
+    .progress{
+        visibility: hidden;
+        width: 0%;
     }
     .botones{
         display: flex;
         flex-flow: row wrap;
     }
-    .botones .bars{
+    .botones div{
         align-items: center;
         display: flex;
     }
