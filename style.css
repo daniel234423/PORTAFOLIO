@@ -47,6 +47,10 @@
         background-attachment: scroll;
         background-size: cover;
         height: 37em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
     }
 
     .ar-presentacion h1 {
@@ -61,13 +65,12 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        height: 100%;
         align-items: center;
         color: white;
     }
 
     .div-presentacion {
-        margin: 3em;
+        margin: 5em;
     }
 
     .ar-presentacion p {
@@ -139,16 +142,30 @@
     }
 
     .duo article {
-        padding: 1em;
+        padding: 5em;
         width: 50%;
     }
 
     .quien-soy p {
+        font-size: 150%;
         width: 90%
     }
-
+    .progress{
+        visibility: hidden;
+        width: 0%;
+    }
+    .habilidad{
+        border: 1px solid black;
+    }
+    .botones{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .botones .bars{
+        align-items: center;
+        display: flex;
+    }
     .habilidad button {
-
         width: 3em;
         font-size: 2em;
         background-color: rgb(210, 210, 210);
@@ -305,13 +322,19 @@
         .ar-presentacion p {
             font-size: 90%;
         }
+        .div-presentacion {
+            margin: 3em;
+        }
 
         .ar-mi p {
             width: 100%;
             font-size: 90%;
         }
-
+        .duo article {
+            padding: 3em;
+        }
         .quien-soy p {
+            font-size: 100%;
             width: 100%;
         }
 

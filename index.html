@@ -44,13 +44,13 @@
     </nav>
     <main>
         <aside>
-            <article class="ar-aside"> 
-                    <a href="#"><img src="aside-img/github.png" alt=""></a>
-                    <a href="#"><img src="aside-img/discord.png" alt=""></a>
-                    <a href="#"><img src="aside-img/instagram.png" alt=""></a>
-                    <a href="#"><img src="aside-img/linkedin.png" alt=""></a>
-                    <a href="#"><img src="aside-img/sobre.png" alt=""></a>
-                    <a href="#"><img src="aside-img/twitter.png" alt=""></a> 
+            <article class="ar-aside">
+                <a href="#"><img src="aside-img/github.png" alt=""></a>
+                <a href="#"><img src="aside-img/discord.png" alt=""></a>
+                <a href="#"><img src="aside-img/instagram.png" alt=""></a>
+                <a href="#"><img src="aside-img/linkedin.png" alt=""></a>
+                <a href="#"><img src="aside-img/sobre.png" alt=""></a>
+                <a href="#"><img src="aside-img/twitter.png" alt=""></a>
             </article>
         </aside>
         <section class="presentacion">
@@ -60,6 +60,11 @@
                     <p>Un programador full-stack centrado en el front-end centrado en crear el diseño a la pagina o
                         aplicacion web y dispuesto a llevar el proyecto al éxito</p>
                     <button>Contato</button>
+                </div>
+            </article>
+            <article>
+                <div class="spinner-grow text-dark" role="status">
+                    <span class="visually-hidden">Loading...</span>
                 </div>
             </article>
         </section>
@@ -87,12 +92,43 @@
             <article class="habilidad">
                 <h1>Mis habilidades</h1>
                 <div class="botones">
-                    <button class="lenguaje1" onclick="barra()" >html</button>
-                    <button class="lenguaje2" onclick="barra()" id="cs">css</button>
-                    <button class="lenguaje3" onclick="barra()" id="java">Javascript</button>
-                    <button class="lenguaje4" onclick="barra()">Python</button>
-                    <button class="lenguaje5" onclick="barra()" id="ruby">ruby</button>
-                </div>
+                    <div id="bar1">
+                        <button class="lenguaje1" id="html" onclick="barras()">html</button>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 25%">25%</div>
+                        </div>
+                    </div>
+                    <div id="bar2">
+                        <button class="lenguaje2" onclick="barrs()" id="cs">css</button>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 25%">25</div>
+                        </div>
+                    </div>
+                        <div id="bar-3">
+                            <button class="lenguaje3" onclick="barra()" id="java">Javascript</button>
+                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 25%">25</div>
+                        </div>
+                        </div>
+                        <div id="bar4">
+                            <button class="lenguaje4" onclick="barra()">Python</button>
+                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 25%">25</div>
+                        </div>
+                        </div>
+                        <div id="bar5">
+                            <button class="lenguaje5" onclick="barra()" id="ruby">ruby</button>
+                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 25%">25</div>
+                        </div>
+                        </div>
+                    </div>
+                    
             </article>
         </section>
         <section class="proyectos">
@@ -143,25 +179,25 @@
         </section>
         <footer class="foot">
             <article>
-            <div class="footer-text">
-                <h1>daniel nuñez</h1>
-                <p>Un programador full-stack especialisado en diseño web aplicado en llevar el preducto al exito</p>
-            </div>
-            <div class="icons-final">
-                <h1>social</h1>
-                <div class="icon"> 
-                    <a href="#"><img src="img/git.png" alt=""></a>
-                    <a href="#"><img src="img/discord.png" alt=""></a>
-                    <a href="#"><img src="img/insta.png" alt=""></a>
-                    <a href="#"><img src="img/twiter.png" alt=""></a>
-                    <a href="#"><img src="img/linkedin.png" alt=""></a>
-                    <a href="#"><img src="img/correo.png" alt=""></a>
+                <div class="footer-text">
+                    <h1>daniel nuñez</h1>
+                    <p>Un programador full-stack especialisado en diseño web aplicado en llevar el preducto al exito</p>
                 </div>
-            </div>
-        </article>
-        <article class="p-fot">
-            <p>© Derechos de autor 2023. Hecho por daniel nuñez</p>
-        </article>
+                <div class="icons-final">
+                    <h1>social</h1>
+                    <div class="icon">
+                        <a href="#"><img src="img/git.png" alt=""></a>
+                        <a href="#"><img src="img/discord.png" alt=""></a>
+                        <a href="#"><img src="img/insta.png" alt=""></a>
+                        <a href="#"><img src="img/twiter.png" alt=""></a>
+                        <a href="#"><img src="img/linkedin.png" alt=""></a>
+                        <a href="#"><img src="img/correo.png" alt=""></a>
+                    </div>
+                </div>
+            </article>
+            <article class="p-fot">
+                <p>© Derechos de autor 2023. Hecho por daniel nuñez</p>
+            </article>
         </footer>
 
     </main>
