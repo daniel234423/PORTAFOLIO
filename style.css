@@ -33,6 +33,7 @@
 
     }
 
+
     .navbar-toggler {
         border: none !important;
     }
@@ -133,17 +134,38 @@
         transform: translateX(-50%);
         border-radius: 5px;
     }
+    .progress{
+        background-color:  #b0b0b0 !important;
+        height: 2em !important;
+        border-radius: 15px !important;
+    }
+    .progress-bar{
+        color: black !important;
+        background-color: red !important;
+        font-size: 20px;
+        border-radius: 15px !important;
+        height: 100% !important;
+        text-align: end;
+    }
+
+
 
     .duo {
         display: flex;
         flex-flow: row wrap;
-
         background-color: rgb(248, 248, 248);
     }
 
     .duo article {
         padding: 5em;
         width: 50%;
+    }
+    #java{
+        width: 4.5em;
+        margin: 0.3em;
+    }
+    #phyton{
+        margin: 0.2em;
     }
 
     .quien-soy p {
@@ -159,25 +181,25 @@
         width: 0%;
     }
     .botones{
+        width: 100%;
         display: flex;
         flex-flow: row wrap;
     }
-    .botones div{
-        align-items: center;
+    .botones div img{
+        width: 5em;
+    }
+    .botones{
         display: flex;
     }
-    .habilidad button {
-        width: 3em;
-        font-size: 2em;
-        background-color: rgb(210, 210, 210);
-        margin: 0.3em;
-        border-radius: 10px;
-        border: none;
+    .xdd{
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        width: 30%;
+        margin-top: 1em;
     }
 
-    #java {
-        width: 4em;
-    }
+
 
     #title-p {
         padding-top: 4em;

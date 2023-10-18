@@ -21,22 +21,22 @@
             </button>
             <ul class=" collapse navbar-collapse nav-underline" id="navbarNavDropdown">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Sobre Mi</a>
+                    <a class="nav-link" aria-current="page" href="#sobre-mi">Sobre Mi</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Habilidades</a>
+                    <a class="nav-link" href="#habilidades">Habilidades</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#final-s">Contacto</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    <a class="nav-link dropdown-toggle" href="#proyectos" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
                         Proyectos
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">icarus</a></li>
-                        <li><a class="dropdown-item" href="#">Los 3 mas grande</a></li>
+                        <li><a class="dropdown-item" href="#icarus">icarus</a></li>
+                        <li><a class="dropdown-item" href="#img-g">Los 3 mas grande</a></li>
                     </ul>
                 </li>
             </ul>
@@ -68,7 +68,7 @@
                 </div>
             </article>
         </section>
-        <section class="sobre-mi">
+        <section class="sobre-mi" id="sobre-mi">
             <article class="ar-mi">
                 <h1>Sobré MI</h1>
                 <span class="despues"></span>
@@ -89,49 +89,49 @@
                 <p>estoy dispuesto a oportunidades de trabajo donde pueda contribuir al igual que aprender y crecer si
                     tienen alguna oportunidad laboral adecuada a mis habilidades no dudes en contactarme .</p>
             </article>
-            <article class="habilidad">
+            <article class="habilidad" id="habilidades">
                 <h1>Mis habilidades</h1>
                 <div class="botones">
-                    <div id="bar1">
-                        <button class="lenguaje1" id="html" onclick="barras()">html</button>
+                    <div class="xdd" id="bar1">
+                        <img src="img/html.png" class="lenguaje1" id="html"  onmouseenter="barras()"></img>
                         <div id="nose1" class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
                             aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar text-danger" style="width: 80%">80%</div>
+                            <div class="progress-bar " style="width: 80%">80%</div>
                         </div>
                     </div>
-                    <div id="bar2">
-                        <button class="lenguaje2" onclick="barras()" id="cs">css</button>
+                    <div class="xdd" id="bar2">
+                        <img src="img/css-3.png" class="lenguaje2"  onmouseenter="barras()" id="cs"></img>
                         <div id="nose2" class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100"
                             aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar text-danger" style="width: 70%">70%</div>
+                            <div class="progress-bar " style="width: 70%">70%</div>
                         </div>
                     </div>
-                        <div id="bar3">
-                            <button class="lenguaje3" onclick="barras()" id="java">Javascript</button>
-                            <div id="nose3" class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100"
+                        <div class="xdd" id="bar3">
+                            <img src="img/secuencia-de-comandos-de-java.png" class="lenguaje3"  onmouseenter="barras()" id="java"></img>
+                            <div id="nose3" class="progress " role="progressbar" aria-label="Basic example" aria-valuenow="100"
                             aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar text-danger" style="width: 50%">50%</div>
+                            <div class="progress-bar " style="width: 50%; ">50%</div>
                         </div>
                         </div>
-                        <div id="bar4">
-                            <button class="lenguaje4" onclick="barras()">Python</button>
+                        <div class="xdd" id="bar4">
+                            <img src="img/python.png" id="phyton" class="lenguaje4" onmouseenter="barras()"></img>
                             <div id="nose4" class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100"
                             aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar text-danger" style="width: 15%">15%</div>
+                            <div class="progress-bar " style="width: 15%">15%</div>
                         </div>
                         </div>
-                        <div id="bar5">
-                            <button class="lenguaje5" onclick="barras()" id="ruby">ruby</button>
+                        <div class="xdd"id="bar5">
+                            <img src="img/ruby.png" class="lenguaje5"   onmouseenter="barras()" id="ruby"></img>
                             <div id="nose5" class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100"
                             aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar bg-black text-danger" style="width: 25%">25%</div>
+                            <div class="progress-bar" style="width: 25%">25%</div>
                         </div>
                         </div>
                     </div>
                     
             </article>
         </section>
-        <section class="proyectos">
+        <section class="proyectos" id="proyectos">
             <article class="ar-mi" id="title-p">
                 <h1>proyectos</h1>
                 <span class="despues"></span>
@@ -139,7 +139,7 @@
                     descripción especifica y su estudio de caso</p>
             </article>
             <article class="proyecto-p">
-                <img src="img/icarus.jpg" alt="">
+                <img id="icarus" src="img/icarus.jpg" alt="">
                 <div class="descriptcion">
                     <h2>icarus</h2>
                     <p>icarus es un proyecto en conjunto con otros programadores para crear un carrito de compras
