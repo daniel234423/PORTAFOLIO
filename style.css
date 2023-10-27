@@ -267,7 +267,7 @@
         padding: 10px;
     }
 
-    .input-ar button {
+    .input-ar .btn-dan {
         width: 7em;
         height: 3em;
         border-radius: 10px;
@@ -275,6 +275,7 @@
         color: white;
         font-weight: bolder;
         border: none;
+        cursor: pointer;
         margin: 1em;
         margin-left: 80%;
         box-shadow: 2px 3px 0 white;
