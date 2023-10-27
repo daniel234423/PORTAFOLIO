@@ -266,7 +266,11 @@
         font-size: 20px;
         padding: 10px;
     }
-
+.div-submit{
+    display: flex;
+    justify-content: end;
+    margin-right: 8%;
+}
     .input-ar .btn-dan {
         width: 7em;
         height: 3em;
@@ -277,7 +281,6 @@
         border: none;
         cursor: pointer;
         margin: 1em;
-        margin-left: 80%;
         box-shadow: 2px 3px 0 white;
     }
 
@@ -402,8 +405,7 @@
             font-size: 20px !important;
         }
 
-        .input-ar button {
-            margin-left: 60%;
+        .input-ar .btn-dan {
         }
 
         .icon img {
