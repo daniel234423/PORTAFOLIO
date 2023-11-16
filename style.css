@@ -420,6 +420,6 @@
             flex-flow: row wrap;
         }
         aside{
-            width: 10%;
+            max-width:  10%;
         }
     }
